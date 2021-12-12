@@ -27,7 +27,7 @@ class DatabaseSeeder extends Seeder
             'role' => '1',
             'SDT' => '01234567891',
             'Address' => 'AAA at BBB',
-            'avatar' => 'https://quanlybanhangapi.herokuapp.com/avatar/default.png',
+            'avatar' => 'https://quanlybanhangapi.herokuapp.com/public/avatar/default.png',
         ]);
         $this->call(SanPhamSeeder::class);
         User::factory(20)->create()->each(function($user) {

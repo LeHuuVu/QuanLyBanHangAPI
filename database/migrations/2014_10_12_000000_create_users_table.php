@@ -22,8 +22,8 @@ class CreateUsersTable extends Migration
             $table->Integer('role');
             $table->string('SDT');
             $table->string('Address');
-            $table->string('avatar');
-            $table->rememberToken();
+            $table->string('avatar')->nullable();
+            $table->rememberToken()->nullable();
             $table->timestamps();
         });
     }
