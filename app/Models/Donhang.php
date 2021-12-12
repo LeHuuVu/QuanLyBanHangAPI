@@ -13,7 +13,7 @@ class Donhang extends Model
 
     public function SanPhams()
     {
-        return $this->belongsToMany(SanPham::class);
+        return $this->belongsToMany(SanPham::class)->withPivot('amount');
     }
     public function User()
     {

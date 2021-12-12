@@ -17,6 +17,6 @@ class SanPham extends Model
     }
     public function Donhangs()
     {
-        return $this->belongsToMany(Donhangs::class());
+        return $this->belongsToMany(Donhangs::class())->withPivot('amount');
     }
 }

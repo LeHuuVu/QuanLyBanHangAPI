@@ -45,9 +45,10 @@ class SanphamController extends Controller
      * @param  \App\Models\SanPham  $sanPham
      * @return \Illuminate\Http\Response
      */
-    public function show(SanPham $sanPham)
+    public function show($id)
     {
-        //
+        $sanpham=SanPham::where('id', $id)->first();
+        return [$sanpham];
     }
 
     /**
