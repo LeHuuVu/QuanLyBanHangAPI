@@ -22,7 +22,7 @@ class DonhangFactory extends Factory
     public function definition()
     {
         return [
-            'Accept' => (bool)rand(0,1),
+            'Accept' => 1,
             'Address' => $this->faker->unique()->address(),
         ];
     }

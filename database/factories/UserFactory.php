@@ -24,7 +24,7 @@ class UserFactory extends Factory
      */
     public function definition()
     {
-        $link=['https://quanlybanhangapi.herokuapp.com/avatar/default.png','https://quanlybanhangapi.herokuapp.com/avatar/Gdefault.png'];
+        $link=['https://quanlybanhangapi.herokuapp.com/public/avatar/default.png','https://quanlybanhangapi.herokuapp.com/public/avatar/Gdefault.png'];
         return [
             'name' => $this->faker->name(),
             'email' => $this->faker->unique()->safeEmail(),
