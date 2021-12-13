@@ -22,15 +22,15 @@ php artisan migrate:fresh --seed
 ```
 # Github workflow
 
-- Khi bắt đầu dự án cần fork repo **minhquanhbt/MangmtPrj** về
+- Khi bắt đầu dự án cần fork repo **Multilevel-Association/QuanLyBanHangAPI** về
 - Tiếp đó tiên hành clone code từ repo đã fork nói trên **[username]/MangmtPrj**
-- Sau khi clone sẽ di chuyển vào folder vừa clone để add thêm repo chính của dự án **minhquanhbt/MangmtPrj** với lệnh sau nếu sử dụng SSH key:
+- Sau khi clone sẽ di chuyển vào folder vừa clone để add thêm repo chính của dự án **Multilevel-Association/QuanLyBanHangAPI** với lệnh sau nếu sử dụng SSH key:
 ```
-git remote add origin git@github.com:minhquanhbt/MangmtPrj.git
+git remote add origin git@github.com:Multilevel-Association/QuanLyBanHangAPI
 ```
 hoặc nếu sử dụng https
 ```
-git remote add origin https://github.com/minhquanhbt/MangmtPrj.git
+git remote add origin https://github.com/Multilevel-Association/QuanLyBanHangAPI
 ```
 - Branch chính của dự án là **main**
 - Mỗi tính năng mới hoặc bug fix mới sẽ làm theo flow như sau
@@ -73,7 +73,7 @@ git push origin feat/login
 => Quá trình nói trên được lặp lại trong toàn bộ chu trình phát triển của dự án
 # Setup Laravel environment
 ```
-APP_NAME=MangMTDemo
+APP_NAME=QuanLyBanHang
 APP_ENV=local
 APP_KEY=base64:xwCN4eLA9HcZjmnnzZzXZpATE4+oI3Yf3ag8OGyAs9Y=
 APP_DEBUG=true
